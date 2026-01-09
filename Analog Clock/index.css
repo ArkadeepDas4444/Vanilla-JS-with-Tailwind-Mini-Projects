@@ -1,0 +1,34 @@
+#clock {
+    position: relative;
+    margin: auto;
+    width: 40vw;
+    height: 40vw;
+    background: url(pngtree-clock-no-hand-circle-strip-png-image_3976894.png) no-repeat;
+    background-size: 100%;
+}
+
+#hour, #minute, #second {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform: translateX(-50%);
+    transform-origin: bottom;
+    left: 50%;
+    bottom: 50%;
+    opacity: 0.8;
+}
+
+#hour {
+    width: 1.75%;
+    height: 22.5%;
+}
+
+#minute {
+    width: 1%;
+    height: 35%;
+}
+
+#second {
+    width: 0.5%;
+    height: 27.5%;
+}
